@@ -1,0 +1,32 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CG0603MLC-05E
+D ESD Suppressors Chip Guard 0603 5 Volts
+K ESD Suppressors Chip Guard 0603 5 Volts
+F http://bourns.com/pdfs/MLC.pdf
+$ENDCMP
+#
+$CMP LM25010MH/NOPB
+D 42-V, 1-A Step-Down Switching Regulator (HTSSOP package)
+$ENDCMP
+#
+$CMP LM25010SD/NOPB
+D 42-V, 1-A Step-Down Switching Regulator (WSON package)
+$ENDCMP
+#
+$CMP MCP4451
+D Digital Potentiometer
+K potentiometer
+$ENDCMP
+#
+$CMP SN74LVC1G04
+D Single NOT Gate, Low-Voltage CMOS
+K Single Gate NOT LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP SN74LVC1T45
+D Voltage level translator
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,376 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:linear
+LIBS:regul
+LIBS:adc-dac
+LIBS:memory
+LIBS:microcontrollers
+LIBS:microchip
+LIBS:analog_switches
+LIBS:texas
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:ac-dc
+LIBS:analog_devices
+LIBS:battery_management
+LIBS:dc-dc
+LIBS:diode
+LIBS:ftdi
+LIBS:graphic
+LIBS:hc11
+LIBS:ir
+LIBS:LEM
+LIBS:maxim
+LIBS:mechanical
+LIBS:modules
+LIBS:motor_drivers
+LIBS:nxp
+LIBS:Oscillators
+LIBS:Power_Management
+LIBS:powerint
+LIBS:references
+LIBS:sensors
+LIBS:video
+LIBS:zetex
+LIBS:w_analog
+LIBS:w_connectors
+LIBS:w_device
+LIBS:w_logic
+LIBS:w_memory
+LIBS:w_microcontrollers
+LIBS:w_opto
+LIBS:w_relay
+LIBS:w_rtx
+LIBS:w_transistor
+LIBS:w_vacuum
+LIBS:DRV8825
+LIBS:sbase-reverse
+LIBS:ESD_Protection
+LIBS:Connector
+LIBS:Logic_74xgxx
+LIBS:Logic_74xx
+LIBS:Logic_CMOS_4000
+LIBS:Logic_CMOS_IEEE
+LIBS:Logic_TTL_IEEE
+LIBS:MCU_NXP_LPC
+LIBS:Motor
+LIBS:Switch
+LIBS:Transistor
+LIBS:Valve
+LIBS:mks-sbase-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 8 16
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 2900 2600 0    60   Input ~ 0
+TH1
+Text HLabel 2900 2700 0    60   Input ~ 0
+TH2
+Text HLabel 2900 2800 0    60   Input ~ 0
+TH3
+Text HLabel 2900 2900 0    60   Input ~ 0
+TH4
+Wire Wire Line
+	2900 2600 3350 2600
+Wire Wire Line
+	2900 2700 3350 2700
+Wire Wire Line
+	2900 2800 3350 2800
+Wire Wire Line
+	2900 2900 3350 2900
+Text Label 3350 2600 2    60   ~ 0
+TH1
+Text Label 3350 2700 2    60   ~ 0
+TH2
+Text Label 3350 2800 2    60   ~ 0
+TH3
+Text Label 3350 2900 2    60   ~ 0
+TH4
+$Comp
+L Conn_01x02 TH1
+U 1 1 5A73C469
+P 5300 1900
+F 0 "TH1" V 5400 1800 50  0000 C CNN
+F 1 "Header 2" H 5300 1700 50  0001 C CNN
+F 2 "" H 5300 1900 50  0001 C CNN
+F 3 "" H 5300 1900 50  0001 C CNN
+	1    5300 1900
+	0    1    -1   0   
+$EndComp
+$Comp
+L Conn_01x02 TH2
+U 1 1 5A73C4A4
+P 5800 1900
+F 0 "TH2" V 5900 1800 50  0000 C CNN
+F 1 "Header 2" H 5800 1700 50  0001 C CNN
+F 2 "" H 5800 1900 50  0001 C CNN
+F 3 "" H 5800 1900 50  0001 C CNN
+	1    5800 1900
+	0    1    -1   0   
+$EndComp
+$Comp
+L Conn_01x02 TH3
+U 1 1 5A73C4C0
+P 6300 1900
+F 0 "TH3" V 6400 1800 50  0000 C CNN
+F 1 "Header 2" H 6300 1700 50  0001 C CNN
+F 2 "" H 6300 1900 50  0001 C CNN
+F 3 "" H 6300 1900 50  0001 C CNN
+	1    6300 1900
+	0    1    -1   0   
+$EndComp
+$Comp
+L Conn_01x02 TH4
+U 1 1 5A73C4E1
+P 6850 1900
+F 0 "TH4" V 6950 1800 50  0000 C CNN
+F 1 "Header 2" H 6850 1700 50  0001 C CNN
+F 2 "" H 6850 1900 50  0001 C CNN
+F 3 "" H 6850 1900 50  0001 C CNN
+	1    6850 1900
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	6750 2250 6750 2100
+Wire Wire Line
+	5100 2250 6750 2250
+Wire Wire Line
+	5200 2100 5200 2250
+Connection ~ 5200 2250
+Wire Wire Line
+	5700 2100 5700 2250
+Connection ~ 5700 2250
+Wire Wire Line
+	6200 2100 6200 2250
+Connection ~ 6200 2250
+$Comp
+L GNDD #PWR91
+U 1 1 5A73C53D
+P 5100 2300
+F 0 "#PWR91" H 5100 2050 50  0001 C CNN
+F 1 "GNDD" H 5100 2175 50  0000 C CNN
+F 2 "" H 5100 2300 50  0001 C CNN
+F 3 "" H 5100 2300 50  0001 C CNN
+	1    5100 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 2250 5100 2300
+$Comp
+L VDDA #PWR92
+U 1 1 5A73CAAE
+P 5100 3050
+F 0 "#PWR92" H 5100 2900 50  0001 C CNN
+F 1 "VDDA" H 5100 3200 50  0000 C CNN
+F 2 "" H 5100 3050 50  0001 C CNN
+F 3 "" H 5100 3050 50  0001 C CNN
+	1    5100 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R45
+U 1 1 5A73CACE
+P 5100 3250
+F 0 "R45" H 5130 3270 50  0000 L CNN
+F 1 "4.7k" H 5130 3210 50  0001 L CNN
+F 2 "" H 5100 3250 50  0001 C CNN
+F 3 "" H 5100 3250 50  0001 C CNN
+	1    5100 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R46
+U 1 1 5A73CB07
+P 5600 3250
+F 0 "R46" H 5630 3270 50  0000 L CNN
+F 1 "4.7k" H 5630 3210 50  0001 L CNN
+F 2 "" H 5600 3250 50  0001 C CNN
+F 3 "" H 5600 3250 50  0001 C CNN
+	1    5600 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R47
+U 1 1 5A73CB73
+P 6100 3250
+F 0 "R47" H 6130 3270 50  0000 L CNN
+F 1 "4.7k" H 6130 3210 50  0001 L CNN
+F 2 "" H 6100 3250 50  0001 C CNN
+F 3 "" H 6100 3250 50  0001 C CNN
+	1    6100 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R48
+U 1 1 5A73CBB4
+P 6650 3250
+F 0 "R48" H 6680 3270 50  0000 L CNN
+F 1 "4.7k" H 6680 3210 50  0001 L CNN
+F 2 "" H 6650 3250 50  0001 C CNN
+F 3 "" H 6650 3250 50  0001 C CNN
+	1    6650 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1_Small C35
+U 1 1 5A73CBE6
+P 5100 3550
+F 0 "C35" H 5110 3620 50  0000 L CNN
+F 1 "10uF" H 5110 3470 50  0001 L CNN
+F 2 "" H 5100 3550 50  0001 C CNN
+F 3 "" H 5100 3550 50  0001 C CNN
+	1    5100 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1_Small C36
+U 1 1 5A73CC15
+P 5600 3550
+F 0 "C36" H 5610 3620 50  0000 L CNN
+F 1 "10uF" H 5610 3470 50  0001 L CNN
+F 2 "" H 5600 3550 50  0001 C CNN
+F 3 "" H 5600 3550 50  0001 C CNN
+	1    5600 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1_Small C37
+U 1 1 5A73CC49
+P 6100 3550
+F 0 "C37" H 6110 3620 50  0000 L CNN
+F 1 "10uF" H 6110 3470 50  0001 L CNN
+F 2 "" H 6100 3550 50  0001 C CNN
+F 3 "" H 6100 3550 50  0001 C CNN
+	1    6100 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1_Small C38
+U 1 1 5A73CC7D
+P 6650 3550
+F 0 "C38" H 6660 3620 50  0000 L CNN
+F 1 "10uF" H 6660 3470 50  0001 L CNN
+F 2 "" H 6650 3550 50  0001 C CNN
+F 3 "" H 6650 3550 50  0001 C CNN
+	1    6650 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDD #PWR93
+U 1 1 5A73CCB7
+P 5100 3750
+F 0 "#PWR93" H 5100 3500 50  0001 C CNN
+F 1 "GNDD" H 5100 3625 50  0000 C CNN
+F 2 "" H 5100 3750 50  0001 C CNN
+F 3 "" H 5100 3750 50  0001 C CNN
+	1    5100 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDD #PWR94
+U 1 1 5A73CCED
+P 5600 3750
+F 0 "#PWR94" H 5600 3500 50  0001 C CNN
+F 1 "GNDD" H 5600 3625 50  0000 C CNN
+F 2 "" H 5600 3750 50  0001 C CNN
+F 3 "" H 5600 3750 50  0001 C CNN
+	1    5600 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDD #PWR95
+U 1 1 5A73CD1C
+P 6100 3750
+F 0 "#PWR95" H 6100 3500 50  0001 C CNN
+F 1 "GNDD" H 6100 3625 50  0000 C CNN
+F 2 "" H 6100 3750 50  0001 C CNN
+F 3 "" H 6100 3750 50  0001 C CNN
+	1    6100 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDD #PWR96
+U 1 1 5A73CD4B
+P 6650 3750
+F 0 "#PWR96" H 6650 3500 50  0001 C CNN
+F 1 "GNDD" H 6650 3625 50  0000 C CNN
+F 2 "" H 6650 3750 50  0001 C CNN
+F 3 "" H 6650 3750 50  0001 C CNN
+	1    6650 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 3650 5100 3750
+Wire Wire Line
+	5600 3650 5600 3750
+Wire Wire Line
+	6100 3650 6100 3750
+Wire Wire Line
+	6650 3650 6650 3750
+Wire Wire Line
+	6650 3350 6650 3450
+Wire Wire Line
+	6100 3350 6100 3450
+Wire Wire Line
+	5600 3350 5600 3450
+Wire Wire Line
+	5100 3050 5100 3150
+Wire Wire Line
+	5100 3100 6650 3100
+Wire Wire Line
+	6650 3100 6650 3150
+Connection ~ 5100 3100
+Wire Wire Line
+	6100 3150 6100 3100
+Connection ~ 6100 3100
+Wire Wire Line
+	5600 3150 5600 3100
+Connection ~ 5600 3100
+Wire Wire Line
+	5100 3350 5100 3450
+Wire Wire Line
+	5300 2100 5300 3400
+Wire Wire Line
+	5300 3400 5100 3400
+Connection ~ 5100 3400
+Wire Wire Line
+	5600 3400 5800 3400
+Wire Wire Line
+	5800 3400 5800 2100
+Connection ~ 5600 3400
+Wire Wire Line
+	6100 3400 6300 3400
+Wire Wire Line
+	6300 3400 6300 2100
+Connection ~ 6100 3400
+Wire Wire Line
+	6650 3400 6850 3400
+Wire Wire Line
+	6850 3400 6850 2100
+Connection ~ 6650 3400
+Text Label 5300 2700 1    60   ~ 0
+TH1
+Text Label 5800 2700 1    60   ~ 0
+TH2
+Text Label 6300 2700 1    60   ~ 0
+TH3
+Text Label 6850 2700 1    60   ~ 0
+TH4
+$EndSCHEMATC
