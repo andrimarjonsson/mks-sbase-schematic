@@ -1,4 +1,4 @@
-#MKS Sbase Schematic
+# MKS-Sbase Schematic
 
 Long story short, I aquired a used printer that came with an MKS-Sbase controller. After spending about an hour online reading about that board and got annoyed by MKS's "special" view on Open Source and what that entails.
 
